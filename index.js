@@ -5,7 +5,7 @@ const port = 5000;
 const mongoDB = require("./db");
 mongoDB();
 app.use((req,res,next) => {
-    res.setHeader("Access-Control-Allow-Origin", "https://myntra-clone-aziz.vercel.app/");
+    res.setHeader("Access-Control-Allow-Origin", "https://myntra-clone-aziz.vercel.app");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept"
